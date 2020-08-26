@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 40px;
+    line-height: 3;
+}
+
+.backimg {
+    background-image: url("images/banner.jpg");
+    
+}
+
+.bord {
+    border-bottom: 10px solid rgb(93, 121, 199);
+    width: max-content;
+}
+
+.bord:hover {
+    border-bottom: 10px solid rgb(114, 49, 219);
+}
+
+.bgimg1 {
+    background: url(images/p2.jpg);
+    width: 100%;
+     
+    background-attachment: fixed;
+}
+
+.bgimg4 {
+    background-image: linear-gradient(rgb(94, 94, 206), rgb(194, 105, 105), rgb(88, 161, 184));
+    padding: 10px;
+}
+
+.bgcl5 {
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+
+.bgclrr5 {
+    background-color: cadetblue;
+}
+
+.bgclr6 {
+    background-color: rgba(183, 204, 223, 0.658);
+}
+
+.anima:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1sec ease-in-out;
+}
+
+.btmbg {
+    background-color: rgb(155, 120, 67);
+}
